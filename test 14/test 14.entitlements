@@ -6,7 +6,7 @@
 	<string>development</string>
 	<key>com.apple.developer.associated-domains</key>
 	<array>
-		<string>applinks:debbie.page.link</string>
+		<string>applinks:smart.link'</string>
 	</array>
 </dict>
 </plist>

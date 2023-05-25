@@ -33,12 +33,12 @@ public final class AppDelegate: PluggableApplicationDelegate {
 public class GeneralAppDelegate: NSObject, ApplicationService {
 
 	public func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
-		AppManager.setup(AppManager.Config(app: .debbie,
-										   displayName: "Template",
-										   appId: 0,
-										   appToken: "template",
-										   marketplaceId: 145,
-										   dynamicURIPrefix: "https://debbie.page.link"))
+		AppManager.setup(AppManager.Config(app: .test14,
+										   displayName: "test 14",
+										   appId: 123,
+										   appToken: "salkjdlkasjdlkksjdas",
+										   marketplaceId: 23,
+										   dynamicURIPrefix: "https://smart.link"))
 		return true
 	}
 }
