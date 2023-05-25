@@ -19,9 +19,9 @@
 
 /* Begin PBXFileReference section */
 		06C81601442D7126001050A7 /* Pods_Debbies_Staffing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Debbies_Staffing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B062D89EF317B547EA4299D /* Pods-Debbies Staffing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Debbies Staffing.debug.xcconfig"; path = "Target Support Files/Pods-Debbies Staffing/Pods-Debbies Staffing.debug.xcconfig"; sourceTree = "<group>"; };
-		50E5F8DF48DBB57B8E9B8B26 /* Pods-Debbies Staffing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Debbies Staffing.release.xcconfig"; path = "Target Support Files/Pods-Debbies Staffing/Pods-Debbies Staffing.release.xcconfig"; sourceTree = "<group>"; };
-		9CBCA99725B1EA350060BBA9 /* Debbies Staffing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Debbies Staffing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B062D89EF317B547EA4299D /* Pods-test 14.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test 14.debug.xcconfig"; path = "Target Support Files/Pods-test 14/Pods-test 14.debug.xcconfig"; sourceTree = "<group>"; };
+		50E5F8DF48DBB57B8E9B8B26 /* Pods-test 14.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test 14.release.xcconfig"; path = "Target Support Files/Pods-test 14/Pods-test 14.release.xcconfig"; sourceTree = "<group>"; };
+		9CBCA99725B1EA350060BBA9 /* test 14.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test 14.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CDCC4C225B21885008738F3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9CDCC4C525B2188C008738F3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CDCC4C825B218A3008738F3 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -30,7 +30,7 @@
 		9CDCC4D525B21912008738F3 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		9CDCC4D825B21918008738F3 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		9CDCC4DB25B21925008738F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9CDCC4DE25B21A0F008738F3 /* Debbies Staffing.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = "Debbies Staffing.entitlements"; sourceTree = "<group>"; };
+		9CDCC4DE25B21A0F008738F3 /* test 14.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = "test 14.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +48,7 @@
 		9CBCA98A25B1EA320060BBA9 = {
 			isa = PBXGroup;
 			children = (
-				9CDCC4BF25B217D4008738F3 /* Debbies Staffing */,
+				9CDCC4BF25B217D4008738F3 /* test 14 */,
 				C5EC4DDE9E0B72B05371A881 /* Frameworks */,
 				F07918E3989524884CD26110 /* Pods */,
 				9CBCA99825B1EA350060BBA9 /* Products */,
@@ -58,15 +58,15 @@
 		9CBCA99825B1EA350060BBA9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9CBCA99725B1EA350060BBA9 /* Debbies Staffing.app */,
+				9CBCA99725B1EA350060BBA9 /* test 14.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9CDCC4BF25B217D4008738F3 /* Debbies Staffing */ = {
+		9CDCC4BF25B217D4008738F3 /* test 14 */ = {
 			isa = PBXGroup;
 			children = (
-				9CDCC4DE25B21A0F008738F3 /* Debbies Staffing.entitlements */,
+				9CDCC4DE25B21A0F008738F3 /* test 14.entitlements */,
 				9CDCC4C225B21885008738F3 /* GoogleService-Info.plist */,
 				9CDCC4C525B2188C008738F3 /* Info.plist */,
 				9CDCC4C825B218A3008738F3 /* AppDelegate.swift */,
@@ -75,7 +75,7 @@
 				9CDCC4CF25B218C2008738F3 /* Controllers */,
 				9CDCC4D125B218D8008738F3 /* Storyboards */,
 			);
-			path = "Debbies Staffing";
+			path = "test 14";
 			sourceTree = "<group>";
 		};
 		9CDCC4CF25B218C2008738F3 /* Controllers */ = {
@@ -106,8 +106,8 @@
 		F07918E3989524884CD26110 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1B062D89EF317B547EA4299D /* Pods-Debbies Staffing.debug.xcconfig */,
-				50E5F8DF48DBB57B8E9B8B26 /* Pods-Debbies Staffing.release.xcconfig */,
+				1B062D89EF317B547EA4299D /* Pods-test 14.debug.xcconfig */,
+				50E5F8DF48DBB57B8E9B8B26 /* Pods-test 14.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -115,9 +115,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9CBCA99625B1EA350060BBA9 /* Debbies Staffing */ = {
+		9CBCA99625B1EA350060BBA9 /* test 14 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9CBCA9AB25B1EA350060BBA9 /* Build configuration list for PBXNativeTarget "Debbies Staffing" */;
+			buildConfigurationList = 9CBCA9AB25B1EA350060BBA9 /* Build configuration list for PBXNativeTarget "test 14" */;
 			buildPhases = (
 				BD19DC916DD2B7F02D4AF90D /* [CP] Check Pods Manifest.lock */,
 				9CBCA99325B1EA350060BBA9 /* Sources */,
@@ -130,9 +130,9 @@
 			);
 			dependencies = (
 			);
-			name = "Debbies Staffing";
+			name = "test 14";
 			productName = "Atlas Staffing (iOS)";
-			productReference = 9CBCA99725B1EA350060BBA9 /* Debbies Staffing.app */;
+			productReference = 9CBCA99725B1EA350060BBA9 /* test 14.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -150,7 +150,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9CBCA98E25B1EA320060BBA9 /* Build configuration list for PBXProject "Debbies Staffing" */;
+			buildConfigurationList = 9CBCA98E25B1EA320060BBA9 /* Build configuration list for PBXProject "test 14" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -163,7 +163,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9CBCA99625B1EA350060BBA9 /* Debbies Staffing */,
+				9CBCA99625B1EA350060BBA9 /* test 14 */,
 			);
 		};
 /* End PBXProject section */
@@ -189,15 +189,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Debbies Staffing/Pods-Debbies Staffing-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-test 14/Pods-test 14-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Debbies Staffing/Pods-Debbies Staffing-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-test 14/Pods-test 14-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Debbies Staffing/Pods-Debbies Staffing-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-test 14/Pods-test 14-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		778B8E082CAB3DBDEBD821BD /* [CP] Copy Pods Resources */ = {
@@ -206,15 +206,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Debbies Staffing/Pods-Debbies Staffing-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-test 14/Pods-test 14-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Debbies Staffing/Pods-Debbies Staffing-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-test 14/Pods-test 14-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Debbies Staffing/Pods-Debbies Staffing-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-test 14/Pods-test 14-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BD19DC916DD2B7F02D4AF90D /* [CP] Check Pods Manifest.lock */ = {
@@ -232,7 +232,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Debbies Staffing-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-test 14-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -371,21 +371,21 @@
 		};
 		9CBCA9AC25B1EA350060BBA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B062D89EF317B547EA4299D /* Pods-Debbies Staffing.debug.xcconfig */;
+			baseConfigurationReference = 1B062D89EF317B547EA4299D /* Pods-test 14.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Debbies Staffing/Debbies Staffing.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "test 14/test 14.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = L3J4WEG8AK;
-				INFOPLIST_FILE = "Debbies Staffing/Info.plist";
+				INFOPLIST_FILE = "test 14/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 4.14.3;
-				PRODUCT_BUNDLE_IDENTIFIER = com.serveture.debbie;
-				PRODUCT_NAME = "Debbies Staffing";
+				PRODUCT_BUNDLE_IDENTIFIER = com.serveture.test14;
+				PRODUCT_NAME = "test 14";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -393,21 +393,21 @@
 		};
 		9CBCA9AD25B1EA350060BBA9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50E5F8DF48DBB57B8E9B8B26 /* Pods-Debbies Staffing.release.xcconfig */;
+			baseConfigurationReference = 50E5F8DF48DBB57B8E9B8B26 /* Pods-test 14.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Debbies Staffing/Debbies Staffing.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "test 14/test 14.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = L3J4WEG8AK;
-				INFOPLIST_FILE = "Debbies Staffing/Info.plist";
+				INFOPLIST_FILE = "test 14/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 4.14.3;
-				PRODUCT_BUNDLE_IDENTIFIER = com.serveture.debbie;
-				PRODUCT_NAME = "Debbies Staffing";
+				PRODUCT_BUNDLE_IDENTIFIER = com.serveture.test14;
+				PRODUCT_NAME = "test 14";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -416,7 +416,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9CBCA98E25B1EA320060BBA9 /* Build configuration list for PBXProject "Debbies Staffing" */ = {
+		9CBCA98E25B1EA320060BBA9 /* Build configuration list for PBXProject "test 14" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9CBCA9A925B1EA350060BBA9 /* Debug */,
@@ -425,7 +425,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9CBCA9AB25B1EA350060BBA9 /* Build configuration list for PBXNativeTarget "Debbies Staffing" */ = {
+		9CBCA9AB25B1EA350060BBA9 /* Build configuration list for PBXNativeTarget "test 14" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9CBCA9AC25B1EA350060BBA9 /* Debug */,

@@ -2,7 +2,7 @@ platform :ios, '12.0'
 use_frameworks!
 inhibit_all_warnings!
 
-target 'Debbies Staffing' do
+target 'test 14' do
 	pod 'ServetureFramework', :path => 'app-framework-ios'
 	pod 'PayHoursFramework', :path => 'paystub-ios'
 	pod 'Firebase/Analytics', '~> 8.12.0'
