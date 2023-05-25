@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>Debbie's Staffing</string>
+	<string>test 14</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -32,10 +32,10 @@
 		</dict>
 		<dict>
 			<key>CFBundleURLName</key>
-			<string>debbie</string>
+			<string>test14</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>com.serveture.debbie</string>
+				<string>com.serveture.test14</string>
 			</array>
 		</dict>
 	</array>
