@@ -1,4 +1,4 @@
-app_identifier "com.serveture.debbie"
+app_identifier "com.serveture.test14"
 apple_id "hello@deverest.io"
 
 itc_team_id("118055758") # App Store Connect Team ID

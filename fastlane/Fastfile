@@ -1,8 +1,8 @@
 default_platform(:ios)
 
 # Constants
-XCODE_PROJECT = "Debbies Staffing.xcodeproj"
-GSP_PATH = "./Debbies Staffing/GoogleService-Info.plist"
+XCODE_PROJECT = "test 14.xcodeproj"
+GSP_PATH = "./test 14/GoogleService-Info.plist"
 APP_STORE_KEY_ID = "F93U84ZH7J"
 APP_STORE_ISSUER_ID = "69a6de89-6a73-47e3-e053-5b8c7c11a4d1"
 APP_STORE_KEY_FILEPATH = "./AuthKey_F93U84ZH7J.p8"
