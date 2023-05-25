@@ -1,0 +1,58 @@
+default_platform(:ios)
+
+# Constants
+XCODE_PROJECT = "Debbies Staffing.xcodeproj"
+GSP_PATH = "./Debbies Staffing/GoogleService-Info.plist"
+APP_STORE_KEY_ID = "F93U84ZH7J"
+APP_STORE_ISSUER_ID = "69a6de89-6a73-47e3-e053-5b8c7c11a4d1"
+APP_STORE_KEY_FILEPATH = "./AuthKey_F93U84ZH7J.p8"
+
+platform :ios do
+
+  before_all do
+    setup_circle_ci
+  end
+
+  lane :staging do
+    ensure_git_status_clean
+    app_store_connect_api_key(
+      key_id: APP_STORE_KEY_ID,
+      issuer_id: APP_STORE_ISSUER_ID,
+      key_filepath: APP_STORE_KEY_FILEPATH
+    )
+    testflightBuildNumber = latest_testflight_build_number(
+      initial_build_number: 1,
+      version: get_version_number
+    )
+    increment_build_number(
+      build_number: testflightBuildNumber + 1,
+    )
+    match(type: "appstore")
+    cocoapods
+    build_app
+    upload_symbols_to_crashlytics(gsp_path: GSP_PATH)
+    commit = last_git_commit
+    release_notes = commit[:message]
+    upload_to_testflight(
+      skip_waiting_for_build_processing: true,
+      changelog: release_notes
+    )
+    commit_version_bump(
+      message:"[ci skip] Version Bump to #{get_version_number} (#{get_build_number})", 
+      force: true,
+      xcodeproj: XCODE_PROJECT
+    )
+    push_to_git_remote(force: true)
+  end
+
+  lane :refreshDsyms do
+    app_store_connect_api_key(
+      key_id: APP_STORE_KEY_ID,
+      issuer_id: APP_STORE_ISSUER_ID,
+      key_filepath: APP_STORE_KEY_FILEPATH
+    )
+    download_dsyms
+    upload_symbols_to_crashlytics(gsp_path: GSP_PATH)
+    clean_build_artifacts
+  end
+end

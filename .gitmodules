@@ -1,0 +1,6 @@
+[submodule "paystub-ios"]
+	path = paystub-ios
+	url = https://github.com/Serveture/paystub-ios
+[submodule "app-framework-ios"]
+	path = app-framework-ios
+	url = https://github.com/Serveture/app-framework-ios

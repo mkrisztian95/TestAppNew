@@ -1,0 +1,29 @@
+version: 2.1
+
+orbs:
+  ruby: circleci/ruby@1.2.0
+
+jobs:
+  deploy_staging:
+    macos:
+      xcode: "13.3.1"
+    steps:
+      - checkout
+      - run:
+         name: Checkout git submodules
+         command: git submodule update --init
+      - run:
+          name: Deploy to TestFlight
+          command: fastlane staging --verbose
+
+workflows:
+  version: 2.1
+  deploy_staging:
+    jobs:
+      - deploy_staging:
+          context:
+            - ios-apps
+          filters:
+            branches:
+              only:
+                - staging

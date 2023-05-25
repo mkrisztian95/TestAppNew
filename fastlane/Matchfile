@@ -1,0 +1,7 @@
+git_url "git@github.com:Serveture/ios-fastlane-certificates.git"
+git_branch "serveture"
+
+git_user_email "hello@deverest.io"
+
+keychain_password "serveture"
+type "appstore"
